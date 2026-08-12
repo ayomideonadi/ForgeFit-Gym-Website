@@ -1,4 +1,7 @@
-# React + TypeScript + Vite
+# Forgefit Gym Website
+
+ForgeFit Gym Website is a modern fitness and gym landing page designed to promote fitness services, membership plans, and personal training programs. Built with React and Vite, the project focuses on responsive design, engaging user experience, and clean UI development practices.
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
