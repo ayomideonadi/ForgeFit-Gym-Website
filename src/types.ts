@@ -1,6 +1,6 @@
 export type ThemeMode = 'dark' | 'light';
 
-export type PageId = 'home' | 'memberships' | 'classes' | 'trainers' | 'about' | 'contact' | 'blog' | 'calculator';
+export type PageId = 'home' | 'memberships' | 'classes' | 'trainers' | 'about' | 'contact' | 'blog' | 'calculator' | '404';
 
 export interface ClassItem {
   id: string;
