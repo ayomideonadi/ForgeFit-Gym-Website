@@ -12,6 +12,9 @@ import { ClassesPage } from './pages/ClassesPage';
 import { TrainersPage } from './pages/TrainersPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
+import { BlogPage } from './pages/BlogPage';
+import { CalculatorPage } from './pages/CalculatorPage';
+import { NotFoundPage } from './pages/NotFoundPage';
 
 const MainContent: React.FC = () => {
   const { activePage } = useTheme();
@@ -27,6 +30,9 @@ const MainContent: React.FC = () => {
         {activePage === 'trainers' && <TrainersPage />}
         {activePage === 'about' && <AboutPage />}
         {activePage === 'contact' && <ContactPage />}
+        {activePage === 'blog' && <BlogPage />}
+        {activePage === 'calculator' && <CalculatorPage />}
+        {activePage === '404' && <NotFoundPage />}
       </main>
 
       <Footer />

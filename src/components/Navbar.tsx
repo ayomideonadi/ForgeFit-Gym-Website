@@ -10,9 +10,11 @@ export const Navbar: React.FC = () => {
   const navItems: { id: PageId; label: string }[] = [
     { id: 'home', label: 'Home' },
     { id: 'memberships', label: 'Memberships' },
-    { id: 'classes', label: 'Classes & Schedule' },
+    { id: 'classes', label: 'Classes' },
     { id: 'trainers', label: 'Coaches' },
-    { id: 'about', label: 'About & Facility' },
+    { id: 'calculator', label: 'Macro Calculator' },
+    { id: 'blog', label: 'Journal' },
+    { id: 'about', label: 'Facility' },
     { id: 'contact', label: 'Contact' },
   ];
 
@@ -56,7 +58,7 @@ export const Navbar: React.FC = () => {
               <button
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
-                className={`px-4 py-2 rounded-full text-xs font-semibold tracking-wide transition-all cursor-pointer ${
+                className={`px-3.5 py-2 rounded-full text-xs font-semibold tracking-wide transition-all cursor-pointer ${
                   isActive
                     ? 'bg-red-600 text-white shadow-md glow-red'
                     : 'text-gray-300 hover:text-white hover:bg-gray-800/60'
