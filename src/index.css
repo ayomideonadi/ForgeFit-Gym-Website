@@ -15,10 +15,10 @@
   }
 
   .light {
-    --bg-primary: #f8fafc;
+    --bg-primary: #f5f7fb;
     --bg-secondary: #ffffff;
-    --bg-card: rgba(255, 255, 255, 0.85);
-    --border-color: rgba(0, 0, 0, 0.1);
+    --bg-card: rgba(255, 255, 255, 0.82);
+    --border-color: rgba(15, 23, 42, 0.12);
     --text-primary: #0f172a;
     --text-secondary: #475569;
     --accent-red: #e11d48;
@@ -34,6 +34,68 @@ body {
   color: var(--text-primary);
   transition: background-color 0.3s ease, color 0.3s ease;
   overflow-x: hidden;
+}
+
+.light body,
+.light #root,
+.light main,
+.light .min-h-screen {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.light .glass-panel {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+}
+
+.light .bg-gray-950,
+.light .bg-gray-900,
+.light .bg-gray-800,
+.light .bg-gray-900\/90,
+.light .bg-gray-950\/95,
+.light .bg-gray-900\/80,
+.light .bg-gray-800\/80,
+.light .bg-gray-900\/60,
+.light .bg-gray-800\/60,
+.light .bg-gray-950\/90,
+.light .bg-gray-900\/95 {
+  background-color: #ffffff !important;
+}
+
+.light .border-gray-950,
+.light .border-gray-900,
+.light .border-gray-800,
+.light .border-gray-700,
+.light .border-gray-800\/80,
+.light .border-gray-700\/50,
+.light .border-gray-800\/60,
+.light .border-red-500\/30,
+.light .border-red-500\/20,
+.light .border-white\/10,
+.light .border-gray-800\/90 {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+}
+
+.light .text-gray-300,
+.light .text-gray-400,
+.light .text-gray-500,
+.light .text-gray-600,
+.light .text-gray-700,
+.light .text-gray-200,
+.light .text-gray-100,
+.light .text-gray-50,
+.light .placeholder-gray-500,
+.light .placeholder-gray-400 {
+  color: var(--text-secondary) !important;
+}
+
+.light .text-white {
+  color: var(--text-primary) !important;
+}
+
+.light .bg-gradient-hero {
+  background: radial-gradient(circle at 50% 20%, rgba(225, 29, 72, 0.08) 0%, rgba(245, 247, 251, 0.98) 72%);
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
@@ -74,10 +136,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .bg-gradient-hero {
   background: radial-gradient(circle at 50% 20%, rgba(255, 46, 77, 0.15) 0%, rgba(9, 13, 22, 0.95) 70%);
-}
-
-.light .bg-gradient-hero {
-  background: radial-gradient(circle at 50% 20%, rgba(225, 29, 72, 0.1) 0%, rgba(248, 250, 252, 0.95) 70%);
 }
 
 /* Custom Scrollbar */

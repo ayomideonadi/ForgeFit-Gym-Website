@@ -320,30 +320,30 @@ export const MEMBERSHIPS_DATA: MembershipPlan[] = [
 export const TESTIMONIALS_DATA: Testimonial[] = [
   {
     id: 't1',
-    name: 'David Reynolds',
-    role: 'Software Engineer',
-    result: 'Lost 28 lbs & Gained 12 lbs Muscle in 6 Months',
-    quote: 'ForgeFit completely changed my routine. The coaches actually care about your form, the energy in the HIIT classes is unreal, and the sauna after a heavy leg day is pure luxury.',
+    name: 'Alicia Morgan',
+    role: 'Marketing Director',
+    result: 'Dropped 22 lbs & built a stronger routine in 5 months',
+    quote: 'ForgeFit gave me structure, accountability, and a gym environment that actually keeps me motivated. The coaches are thoughtful, the classes are intense in a good way, and the recovery suite makes every week feel sustainable.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80'
   },
   {
     id: 't2',
-    name: 'Sophia Martinez',
+    name: 'Nina Patel',
     role: 'Product Designer',
-    result: 'Increased Squat by 65 lbs in 4 Months',
-    quote: 'As a woman stepping into powerlifting, I was nervous at first. Elena and the ForgeFit community welcomed me with open arms. Now I feel stronger and more confident than ever.',
+    result: 'Increased squat by 65 lbs in 4 months',
+    quote: 'I was nervous about starting strength training, but the team at ForgeFit made it welcoming from day one. Elena helped me build real confidence with the right form, and now I look forward to every session.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=500&q=80',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80'
   },
   {
     id: 't3',
-    name: 'Michael Chen',
+    name: 'Marcus Silva',
     role: 'Architect',
-    result: 'Rehabbed Lower Back & Ran 1st Half Marathon',
-    quote: 'The combination of high-intensity training with Aria’s recovery & cold plunge sessions fixed my chronic lower back stiffness. Best gym decision I’ve ever made.',
+    result: 'Recovered from lower back pain and finished my first half marathon',
+    quote: 'The mix of hard training and recovery work at ForgeFit changed my body and my consistency. Aria’s mobility coaching and the cold plunge sessions helped me stay moving without the usual soreness.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=500&q=80',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80'
@@ -376,7 +376,7 @@ export const FACILITIES_DATA: FacilityPhoto[] = [
     id: 'f4',
     title: 'Cardio Deck & Endurance Lab',
     category: 'Cardio Zone',
-    image: 'https://images.unsplash.com/photo-1576678927484-cc909957088c?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1000&q=80',
     description: 'Woodway curved treadmills, Concept2 rowers and ski ergs, Assault AirBikes, and StairMasters with personal screens.'
   },
   {

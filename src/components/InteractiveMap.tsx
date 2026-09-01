@@ -46,10 +46,10 @@ export const InteractiveMap: React.FC = () => {
 
         {/* Text Labels on Map */}
         <div className="absolute top-[125px] left-6 text-[10px] font-mono tracking-widest uppercase text-gray-400">
-          IRONWORKS BLVD
+          MAGBORO
         </div>
         <div className="absolute top-12 right-12 text-[10px] font-mono tracking-widest uppercase text-gray-400">
-          METRO FITNESS DISTRICT
+          NIGERIA FITNESS DISTRICT
         </div>
 
         {/* Hotspot Pins */}
@@ -108,7 +108,7 @@ export const InteractiveMap: React.FC = () => {
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
             <div>
               <h4 className="font-bold text-white text-sm">ForgeFit Gym HQ</h4>
-              <p className="text-xs text-gray-400">124 Ironworks Blvd, Metro Fitness District, NY 10001</p>
+              <p className="text-xs text-gray-400">Magboro, Nigeria</p>
             </div>
             <a
               href="https://maps.google.com"
@@ -139,7 +139,7 @@ export const InteractiveMap: React.FC = () => {
               <Bus className="w-4 h-4" /> Public Transit Access
             </h4>
             <p className="text-xs text-gray-300 mt-0.5">
-              Central Station Line 4 & 7 exit directly at Ironworks Plaza, 150 meters from our main entrance.
+              Central Station Line 4 & 7 exit directly at Forge Avenue Plaza, 150 meters from our main entrance.
             </p>
           </div>
         )}

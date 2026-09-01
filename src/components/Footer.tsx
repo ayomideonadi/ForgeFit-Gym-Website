@@ -83,7 +83,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-3 text-xs">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
-                <span>124 Ironworks Blvd, Metro District, NY 10001</span>
+                <span>Magboro, Nigeria</span>
               </li>
               <li className="flex items-start gap-2">
                 <Clock className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
@@ -94,7 +94,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-red-500 shrink-0" />
-                <span className="text-white font-semibold">(555) 892-3400</span>
+                <span className="text-white font-semibold">+234 905 426 5593</span>
               </li>
             </ul>
           </div>
@@ -131,7 +131,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom copyright */}
         <div className="pt-8 border-t border-gray-900 text-center md:flex md:justify-between md:items-center text-xs text-gray-500">
-          <p>© 2026 ForgeFit Gym Inc. All rights reserved.</p>
+          <p>© 2026 ForgeFit Gym Inc. All rights reserved. Designed by Onadi Ayomide.</p>
           <div className="flex gap-6 justify-center mt-4 md:mt-0">
             <button onClick={openTrialModal} className="hover:text-red-400 transition-colors">Free Trial Terms</button>
             <button onClick={() => setActivePage('contact')} className="hover:text-red-400 transition-colors">Privacy Policy</button>

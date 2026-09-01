@@ -24,7 +24,7 @@ export const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="space-y-20 pb-16">
+    <div className="home-page-shell space-y-20 pb-16">
       
       {/* HERO SECTION */}
       <section className="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden bg-gradient-hero">
