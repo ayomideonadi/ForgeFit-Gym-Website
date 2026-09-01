@@ -78,7 +78,7 @@ export const ContactPage: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white font-heading">Gym Location</h4>
-                  <p className="text-xs text-gray-400 mt-0.5">124 Ironworks Blvd, Metro Fitness District, NY 10001</p>
+                  <p className="text-xs text-gray-400 mt-0.5">Magboro, Nigeria</p>
                 </div>
               </li>
 
@@ -99,7 +99,7 @@ export const ContactPage: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white font-heading">Direct Phone</h4>
-                  <p className="text-xs text-gray-400 mt-0.5">(555) 892-3400 • Front Desk Line</p>
+                  <p className="text-xs text-gray-400 mt-0.5">+234 905 426 5593 • Front Desk Line</p>
                 </div>
               </li>
 
@@ -109,7 +109,7 @@ export const ContactPage: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-white font-heading">General Email</h4>
-                  <p className="text-xs text-gray-400 mt-0.5">info@forgefitgym.com</p>
+                  <p className="text-xs text-gray-400 mt-0.5">ayomideonadi@gmail.com</p>
                 </div>
               </li>
             </ul>
@@ -150,7 +150,7 @@ export const ContactPage: React.FC = () => {
                     <User className="w-4 h-4 text-gray-400 absolute left-3.5 top-3.5" />
                     <input
                       type="text"
-                      placeholder="e.g. Jordan Miller"
+                      placeholder="e.g. Onadi Ayomide"
                       value={formData.name}
                       onChange={e => setFormData({ ...formData, name: e.target.value })}
                       className={`w-full pl-10 pr-4 py-3 bg-gray-800/90 border rounded-xl text-white placeholder-gray-500 focus:outline-none text-sm ${
@@ -170,7 +170,7 @@ export const ContactPage: React.FC = () => {
                       <Mail className="w-4 h-4 text-gray-400 absolute left-3.5 top-3.5" />
                       <input
                         type="email"
-                        placeholder="jordan@example.com"
+                        placeholder="ayomideonadi@gmail.com"
                         value={formData.email}
                         onChange={e => setFormData({ ...formData, email: e.target.value })}
                         className={`w-full pl-10 pr-4 py-3 bg-gray-800/90 border rounded-xl text-white placeholder-gray-500 focus:outline-none text-sm ${
@@ -189,7 +189,7 @@ export const ContactPage: React.FC = () => {
                       <Phone className="w-4 h-4 text-gray-400 absolute left-3.5 top-3.5" />
                       <input
                         type="tel"
-                        placeholder="(555) 019-2834"
+                        placeholder="+234 905 426 5593"
                         value={formData.phone}
                         onChange={e => setFormData({ ...formData, phone: e.target.value })}
                         className={`w-full pl-10 pr-4 py-3 bg-gray-800/90 border rounded-xl text-white placeholder-gray-500 focus:outline-none text-sm ${

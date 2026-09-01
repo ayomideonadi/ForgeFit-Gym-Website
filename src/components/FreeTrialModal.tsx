@@ -118,7 +118,7 @@ export const FreeTrialModal: React.FC = () => {
                   <input
                     type="text"
                     required
-                    placeholder="e.g. Alex Johnson"
+                    placeholder="e.g. Onadi Ayomide"
                     value={formData.name}
                     onChange={e => setFormData({ ...formData, name: e.target.value })}
                     className="w-full pl-10 pr-4 py-3 bg-gray-800/80 border border-gray-700 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-red-500 text-sm"
@@ -135,7 +135,7 @@ export const FreeTrialModal: React.FC = () => {
                   <input
                     type="email"
                     required
-                    placeholder="alex@example.com"
+                    placeholder="ayomideonadi@gmail.com"
                     value={formData.email}
                     onChange={e => setFormData({ ...formData, email: e.target.value })}
                     className="w-full pl-10 pr-4 py-3 bg-gray-800/80 border border-gray-700 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-red-500 text-sm"
@@ -152,7 +152,7 @@ export const FreeTrialModal: React.FC = () => {
                   <input
                     type="tel"
                     required
-                    placeholder="(555) 019-2834"
+                    placeholder="+234 905 426 5593"
                     value={formData.phone}
                     onChange={e => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full pl-10 pr-4 py-3 bg-gray-800/80 border border-gray-700 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-red-500 text-sm"
@@ -219,7 +219,7 @@ export const FreeTrialModal: React.FC = () => {
                 </div>
                 <div>
                   <span className="block text-xs text-gray-500">LOCATION</span>
-                  <span className="font-semibold text-gray-200">124 Ironworks Blvd</span>
+                  <span className="font-semibold text-gray-200">Magboro, Nigeria</span>
                 </div>
               </div>
 
